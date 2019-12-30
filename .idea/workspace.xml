@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3bf522ba-7ec2-40c4-8589-29f831607190" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/simple/board/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/simple/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/simple/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/urls.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VNZMvGjp8Y4N97dhvPc0W1oH6I" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/simple/simple/templates" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/simple/simple/templates" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bf522ba-7ec2-40c4-8589-29f831607190" name="Default Changelist" comment="" />
+      <created>1577095469229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577095469229</updated>
+      <workItem from="1577095472879" duration="4117000" />
+      <workItem from="1577110944751" duration="2292000" />
+      <workItem from="1577694704958" duration="10209000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="705" y="378" width="500" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1577703609832">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="705" y="378" width="500" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1577703609832" />
+    <state x="589" y="139" key="SettingsEditor" timestamp="1577703737209">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="589" y="139" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577703737209" />
+    <state x="643" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1577095490361">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="643" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577095490361" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1577696324237">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577696324237" />
+  </component>
+</project>
