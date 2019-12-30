@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # apps
+    'simple',
     'board',
 ]
 
@@ -56,7 +57,9 @@ ROOT_URLCONF = 'simple.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'simple/templates', 'board/templates')
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

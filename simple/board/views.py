@@ -1,3 +1,11 @@
 from django.shortcuts import render
-from django.views.generic import View
-# Create your views here.
+from .models import Board
+
+
+#class BoardView(Board):
+    #template_name = 'board.html'
+
+def board(request):
+    boards = Board.objects.all()
+    return render(request, 'board.html', {'boards': boards})
+
