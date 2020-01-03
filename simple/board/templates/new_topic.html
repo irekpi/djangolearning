@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %} Start a new Topic {% endblock %}
+
+{% block content %}
+    <li><a href="{% url 'home' %}">Back to home</a></li>
+    <li><a href="{% url 'board:topic' board.pk %}">{{ board.name }}</a></li>
+    <li> The new topic</li>
+
+<br>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit"> Submitc</button>
+    </form>
+<!-- Non class oriented form
+     <form method="post">
+        {% csrf_token %}
+        <input type="text" name="subject">Subject</input><br>
+        <textarea name="message" rows="5">What is it about?</textarea> <br>
+        <button type="submit">Post</button>
+    </form>-->
+{% endblock %}

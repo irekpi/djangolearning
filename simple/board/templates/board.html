@@ -17,7 +17,7 @@
         {% for board in boards %}
           <tr>
             <td>
-            {{ board.name }}<br>
+              <a href="{% url 'board:topic' board.pk %}">{{ board.name }}</a><br>
               <small>{{ board.description }}</small>
             </td>
             <td>0</td>
@@ -25,6 +25,7 @@
           </tr>
         {% endfor %}
       </tbody>
+
     </table>
   </body>
 </html>
