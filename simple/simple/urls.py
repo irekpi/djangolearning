@@ -21,6 +21,7 @@ from .views import HomeView
 
 urlpatterns = [
     path('', HomeView.as_view(), name='home'),
+    path('board/', include('board.urls', namespace='board'), name='board'),
+    path('accounts/', include('accounts.urls', namespace='accounts'), name='accounts'),
     path('admin/', admin.site.urls),
-    path('board/', include('board.urls', namespace='board'), name='board')
 ]

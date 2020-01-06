@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3bf522ba-7ec2-40c4-8589-29f831607190" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/templates/board.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/board.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/simple/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/simple/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple/simple/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple/simple/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/urls.py" afterDir="false" />
     </list>
@@ -63,7 +60,8 @@
       <workItem from="1577110944751" duration="2292000" />
       <workItem from="1577694704958" duration="10209000" />
       <workItem from="1577707999948" duration="5413000" />
-      <workItem from="1578041792057" duration="12263000" />
+      <workItem from="1578041792057" duration="12543000" />
+      <workItem from="1578306226141" duration="5639000" />
     </task>
     <servers />
   </component>
