@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %} Follow instructions below to reset password {% endblock %}
+
+{% block content %}
+    {% if validlink %}
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Change</button>
+        </form>
+    {% else %}
+        Link is invalid, try again
+    {% endif %}
+{% endblock %}

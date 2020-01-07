@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %} Reset your password {% endblock %}
+
+{% block content %}
+    Reset your password here
+    Enter email
+    <form method="POST">
+        {{ form.as_p }}
+        {% csrf_token %}
+        <button type="submit">Reset</button>
+    </form>
+{% endblock %}
+

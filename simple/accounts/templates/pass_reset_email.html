@@ -1,0 +1,5 @@
+{{ user.username }}
+Follow link below if you want to change your password<br>
+{{ protocol }}://{{ domain }}{% url 'accounts:pass_confirm' uidb64=uid token=token %}
+
+We hope that {{ emial }} belongs to you

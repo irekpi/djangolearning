@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %} Password reset is done {% endblock %}
+{% block content %}
+    <p> You may login
+        <br>
+        <a href="{% url 'accounts:login' %}">Login</a>
+    </p>
+{% endblock %}
