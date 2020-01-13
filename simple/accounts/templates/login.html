@@ -3,13 +3,13 @@
 {% block title %} Login  {% endblock %}
 {% block content %}
 
-<p> If you have account login here
+If you have account login here
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
+        <input type="hidden" name="next" value="{{ next }}">
         <button type="submit">Login</button>
     </form>
-</p>
 <p>If you want to create new one
     <a href="{% url 'accounts:signup' %}">Follow this link</a>
 </p>

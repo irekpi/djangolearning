@@ -10,7 +10,8 @@
         <tr>
           <th>Board</th>
           <th>Topic</th>
-          <th>Post</th>
+          <th></th>
+          <th> Last Post</th>
         </tr>
       </thead>
       <tbody>
@@ -20,8 +21,11 @@
               <a href="{% url 'board:topic' board.pk %}">{{ board.name }}</a><br>
               <small>{{ board.description }}</small>
             </td>
-            <td>0</td>
-            <td>0</td>
+            <td>{{ board.get_posts_count }}</td>
+            <td>{{ board.topics.count }}</td>
+            <td>{% with post=board.get_last_post %}
+                  By : {{ post.created_by.username }} at {{ post.created_at }}</td>
+                {% endwith %}
           </tr>
         {% endfor %}
       </tbody>

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %} {{ topic.subject }} {% endblock %}
+
+{% block content %}}
+    <a href="{% url 'board:board' %}">main board </a><br>
+
+    <a href="{% url 'board:topic' topic.board.pk %}"> Topics board </a><br>
+        {{ topic.subject }}<br>
+        Topic starter : {{ topic.starter }}<br>
+        <form method="POST">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <button type="submit">New Post</button>
+        </form><br>
+    {% for post in topic.posts.all %}
+        <li>Created by:{{ post.created_by.username }}</li>
+        <li>Created at:{{ post.created_at }}</li>
+        <li>Message:{{ post.message }}</li>
+        <br>
+    {% endfor %}
+{% endblock %}
