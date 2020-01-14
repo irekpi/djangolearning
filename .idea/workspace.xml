@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf522ba-7ec2-40c4-8589-29f831607190" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/templates/new_topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/new_topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/templates/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/templates/topic_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/topic_posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/simple/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/simple/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3bf522ba-7ec2-40c4-8589-29f831607190" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +68,7 @@
       <workItem from="1578902010572" duration="2038000" />
       <workItem from="1578906413777" duration="5560000" />
       <workItem from="1578916583841" duration="4903000" />
-      <workItem from="1578992542926" duration="3056000" />
+      <workItem from="1578992542926" duration="3788000" />
     </task>
     <servers />
   </component>
