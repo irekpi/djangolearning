@@ -7,7 +7,9 @@
     </body>
     <br>
     <p> If you want to log in click <a href="{% url 'accounts:login' %}">Login</a></p>
-     <p> <a href="{% url 'accounts:logout' %}">Logout</a></p>
     <br>
-    <p> Ure currently logged as {{ user.username }}</p>
+    {% if user.is_authenticated %}
+         <p> <a href="{% url 'accounts:logout' %}">Logout</a></p>
+    <p> Ure currently logged as <a href="{% url 'accounts:my_account' %}">{{ user.username }}</a></p>
+    {% endif %}
 </html>

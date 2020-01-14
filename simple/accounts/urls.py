@@ -17,4 +17,5 @@ urlpatterns = [
     path('reset/complete/', views.PassCompleteView.as_view(), name='pass_complete'),
     path('change/', views. PassChangeView.as_view(), name='pass_change'),
     path('change/done/', views.PassChangeDoneView.as_view(), name='pass_change_done'),
+    path('my_account/', views.UserUpdateView.as_view(), name='my_account'),
 ]

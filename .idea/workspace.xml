@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bf522ba-7ec2-40c4-8589-29f831607190" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/simple/board/migrations/0002_topic_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple/board/templates/new_post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple/board/templates/topic_posts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/templates/board.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/board.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/templates/new_topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/new_topic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple/board/templates/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/templates/topic_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/topic_posts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple/board/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple/board/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/simple/db.sqlite3" afterDir="false" />
@@ -82,7 +77,9 @@
       <workItem from="1578655961607" duration="2948000" />
       <workItem from="1578740200087" duration="2610000" />
       <workItem from="1578902010572" duration="2038000" />
-      <workItem from="1578906413777" duration="4434000" />
+      <workItem from="1578906413777" duration="5560000" />
+      <workItem from="1578916583841" duration="4903000" />
+      <workItem from="1578992542926" duration="3056000" />
     </task>
     <servers />
   </component>

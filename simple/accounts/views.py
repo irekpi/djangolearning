@@ -1,9 +1,13 @@
 from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
 from django.contrib.auth import login
+from django.views.generic import UpdateView
 from django.contrib.auth.views import LoginView, PasswordResetView, PasswordResetDoneView
 from django.contrib.auth.views import PasswordResetConfirmView, PasswordResetCompleteView
 from django.contrib.auth.views import PasswordChangeView, PasswordChangeDoneView
+from django.utils.decorators import method_decorator
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.models import User
 from .forms import SignUpForm
 
 
@@ -38,6 +42,16 @@ class PassChangeView(PasswordChangeView):
 
 class PassChangeDoneView(PasswordChangeDoneView):
     template_name = 'pass_change_done.html'
+
+@method_decorator(login_required, name='dispatch')
+class UserUpdateView(UpdateView):
+    model = User
+    fields = ('first_name', 'last_name', 'email',)
+    template_name = 'my_account.html'
+    success_url = reverse_lazy('home')
+
+    def get_object(self):
+        return self.request.user
 
 
 def signup(request):

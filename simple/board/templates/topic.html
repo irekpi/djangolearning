@@ -6,10 +6,10 @@
         <div>
             <ol>
                 <li> {{ board.name }}</li>
-                <li><a href="{% url 'board:new_topic' board.pk %}">New topic on this main Thread</a></li>
+                <li><a href="{% url 'board:new_topic' board.pk %}">Create New topic</a></li>
             </ol>
         </div>
-    <a href="{% url 'home' %}"> Home</a>
+    <br>
     </body>
 <table>
     <thead>
@@ -20,6 +20,7 @@
         <th>Last Update</th>
       </tr>
     </thead>
+
     <tbody>
       {% for topic in board.topics.all %}
         <tr>

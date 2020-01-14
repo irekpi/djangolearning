@@ -2,16 +2,43 @@ from django.http import Http404
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
+from django.views.generic import UpdateView, ListView
+from django.utils import timezone
+from django.utils.decorators import method_decorator
+from django.core.paginator import Paginator
 from .models import Board, Topic, Post
 from .forms import NewTopicForm, NewPostForm
 
 
-#class BoardView(Board):
-    #template_name = 'board.html'
+@method_decorator(login_required, name='dispatch')
+class PostUpdateView(UpdateView):
+    model = Post
+    fields = ('message', )
+    template_name = 'edit_post.html'
+    pk_url_kwarg = 'post_pk'
+    context_object_name = 'post'
 
-def board(request):
-    boards = Board.objects.all()
-    return render(request, 'board.html', {'boards': boards})
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        return queryset.filter(created_by=self.request.user)
+
+    def form_valid(self, form):
+        post =form.save(commit=False)
+        post.updated_by = self.request.user
+        post.updated_at = timezone.now()
+        post.save()
+        return redirect('board:topic_posts', pk=post.topic.board.pk, topic_pk=post.topic.pk)
+
+
+class BoardView(ListView):
+    template_name = 'board.html'
+    model = Board
+    context_object_name = 'boards'
+
+
+# def board(request):
+#     boards = Board.objects.all()
+#     return render(request, 'board.html', {'boards': boards})
 
 
 def topic(request, pk):
@@ -79,4 +106,5 @@ def new_post(request, pk, topic_pk):
         form = NewPostForm()
     return render(request, 'new_post.html', {'topic': topic,
                                              'form': form})
+
 
