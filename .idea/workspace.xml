@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf522ba-7ec2-40c4-8589-29f831607190" name="Default Changelist" comment="" />
+    <list default="true" id="3bf522ba-7ec2-40c4-8589-29f831607190" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/simple/board/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/simple/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/simple/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +28,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/simple/simple/templates" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -53,22 +60,6 @@
       <workItem from="1577095472879" duration="4117000" />
       <workItem from="1577110944751" duration="2292000" />
       <workItem from="1577694704958" duration="10209000" />
-      <workItem from="1577707999948" duration="5413000" />
-      <workItem from="1578041792057" duration="12543000" />
-      <workItem from="1578306226141" duration="5639000" />
-      <workItem from="1578317872110" duration="1070000" />
-      <workItem from="1578319058079" duration="6136000" />
-      <workItem from="1578325705839" duration="585000" />
-      <workItem from="1578422276343" duration="2586000" />
-      <workItem from="1578507621042" duration="1855000" />
-      <workItem from="1578588868738" duration="4827000" />
-      <workItem from="1578653965146" duration="1980000" />
-      <workItem from="1578655961607" duration="2948000" />
-      <workItem from="1578740200087" duration="2610000" />
-      <workItem from="1578902010572" duration="2038000" />
-      <workItem from="1578906413777" duration="5560000" />
-      <workItem from="1578916583841" duration="4903000" />
-      <workItem from="1578992542926" duration="3788000" />
     </task>
     <servers />
   </component>
@@ -93,25 +84,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="705" y="378" width="500" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1577703609832" />
-    <state x="589" y="139" key="SettingsEditor" timestamp="1578046332868">
+    <state x="589" y="139" key="SettingsEditor" timestamp="1577703737209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="589" y="139" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578046332868" />
+    <state x="589" y="139" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577703737209" />
     <state x="643" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1577095490361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="643" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577095490361" />
-    <state x="617" y="137" width="676" height="759" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578318626039">
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1577696324237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="617" y="137" width="676" height="759" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578318626039" />
-    <state x="757" y="439" width="395" height="155" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578325827227">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="757" y="439" width="395" height="155" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578325827227" />
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1578321345424">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578321345424" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577696324237" />
   </component>
 </project>
