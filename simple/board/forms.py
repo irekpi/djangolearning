@@ -1,6 +1,6 @@
 from django import forms
 from .models import Topic, Post
-
+from django.forms import inlineformset_factory
 
 # class oriented form of a new topic
 class NewTopicForm(forms.ModelForm):
@@ -15,6 +15,8 @@ class NewTopicForm(forms.ModelForm):
 class NewPostForm(forms.ModelForm):
     class Meta:
         model = Post
-        fields = ['message', ]
+        fields = ['message',]
+
+NewForm = inlineformset_factory(Topic, Post, fields=('message',))
 
 

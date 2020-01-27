@@ -7,7 +7,7 @@ from django.utils import timezone
 from django.utils.decorators import method_decorator
 from django.core.paginator import Paginator
 from .models import Board, Topic, Post
-from .forms import NewTopicForm, NewPostForm
+from .forms import NewTopicForm, NewPostForm, NewForm
 
 
 @method_decorator(login_required, name='dispatch')
@@ -70,9 +70,9 @@ def new_topic(request, pk):
     board = get_object_or_404(Board, pk=pk)
     user = User.objects.first()  # TODO: get the currently logged in user
     if request.method == "POST":
-        form = NewTopicForm(request.POST)
-        if form.is_valid():
-            topic = form.save(commit=False)
+        formset = NewPostForm(request.POST)
+        if formset.is_valid():
+            topic = form.save()
             topic.board = board
             topic.starter = request.user
             topic.save()

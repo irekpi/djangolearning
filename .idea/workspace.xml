@@ -2,20 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bf522ba-7ec2-40c4-8589-29f831607190" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/my_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/my_account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_change.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_change.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_change_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_change_done.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_complete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_reset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_reset_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_reset_done.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_reset_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_reset_email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_reset_subject.txt" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_reset_subject.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple/board/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/migrations/0002_topic_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/migrations/0002_topic_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/migrations/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple/board/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/templates/board.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/board.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/templates/edit_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/edit_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/templates/new_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/new_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/templates/new_topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/new_topic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/templates/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/topic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/templates/topic_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/topic_posts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple/board/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/board/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple/board/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/simple/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/simple/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/simple/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/asgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple/simple/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/simple/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/simple/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple/simple/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/simple/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple/simple/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="django" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1VNZMvGjp8Y4N97dhvPc0W1oH6I" />
   <component name="ProjectViewState">
@@ -25,15 +101,42 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/simple/simple/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/simple/simple/templates" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="simple.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -60,6 +163,19 @@
       <workItem from="1577095472879" duration="4117000" />
       <workItem from="1577110944751" duration="2292000" />
       <workItem from="1577694704958" duration="10209000" />
+      <workItem from="1579079081788" duration="101000" />
+      <workItem from="1579354919368" duration="3066000" />
+      <workItem from="1579359543507" duration="1455000" />
+      <workItem from="1579361290966" duration="16000" />
+      <workItem from="1579445501236" duration="34000" />
+      <workItem from="1579553903781" duration="28000" />
+      <workItem from="1579553937721" duration="106000" />
+      <workItem from="1579607165301" duration="208000" />
+      <workItem from="1579607384320" duration="136000" />
+      <workItem from="1579607530564" duration="230000" />
+      <workItem from="1579684808063" duration="58000" />
+      <workItem from="1580127194205" duration="93000" />
+      <workItem from="1580127675264" duration="346000" />
     </task>
     <servers />
   </component>
@@ -80,21 +196,93 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="588" y="214" width="800" height="677" key="#Deployment" timestamp="1579607358756">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="214" width="800" height="677" key="#Deployment/67.27.1853.1053@67.27.1853.1053" timestamp="1579607358756" />
+    <state x="470" y="206" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579684825643">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579357287236" />
+    <state x="470" y="206" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579684825643" />
+    <state x="729" y="390" width="518" height="325" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1579553929607">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="729" y="390" width="518" height="325" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579553929607" />
+    <state x="718" y="225" key="#xdebugger.evaluate" timestamp="1579357916598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="225" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1579357916598" />
     <state x="705" y="378" width="500" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1577703609832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="705" y="378" width="500" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1577703609832" />
-    <state x="589" y="139" key="SettingsEditor" timestamp="1577703737209">
+    <state x="784" y="308" width="501" height="513" key="FileChooserDialogImpl" timestamp="1579553927447">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="743" y="278" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579361271730" />
+    <state x="784" y="308" width="501" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1579553927447" />
+    <state width="1878" height="332" key="GridCell.Tab.0.bottom" timestamp="1579357922767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="589" y="139" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577703737209" />
-    <state x="643" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1577095490361">
+    <state width="1878" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579357922767" />
+    <state width="1878" height="332" key="GridCell.Tab.0.center" timestamp="1579357922766">
       <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="332" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579357922766" />
+    <state width="1878" height="332" key="GridCell.Tab.0.left" timestamp="1579357922766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="332" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579357922766" />
+    <state width="1878" height="332" key="GridCell.Tab.0.right" timestamp="1579357922767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="332" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579357922767" />
+    <state width="1878" height="332" key="GridCell.Tab.1.bottom" timestamp="1579357813648">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="332" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579357813648" />
+    <state width="1878" height="332" key="GridCell.Tab.1.center" timestamp="1579357813647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="332" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579357813647" />
+    <state width="1878" height="332" key="GridCell.Tab.1.left" timestamp="1579357813646">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="332" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579357813646" />
+    <state width="1878" height="332" key="GridCell.Tab.1.right" timestamp="1579357813647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="332" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579357813647" />
+    <state x="635" y="168" key="SettingsEditor" timestamp="1580127939355">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="589" y="139" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579357282987" />
+    <state x="635" y="168" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1580127939355" />
+    <state x="688" y="377" key="com.intellij.ide.util.TipDialog" timestamp="1579553909411">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="643" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577095490361" />
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1577696324237">
+    <state x="688" y="377" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579553909411" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1579356676596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577696324237" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579356676596" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/simple/board/views.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Python.DjangoServer">
+        <watch expression="form" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
