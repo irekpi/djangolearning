@@ -27,7 +27,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/simple/simple/templates" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -86,10 +86,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="705" y="378" width="500" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1577703609832" />
-    <state x="589" y="139" key="SettingsEditor" timestamp="1578046332868">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="635" y="168" key="SettingsEditor" timestamp="1580130218483">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="589" y="139" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578046332868" />
+    <state x="635" y="168" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1580130218483" />
     <state x="643" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1577095490361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
