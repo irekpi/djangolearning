@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf522ba-7ec2-40c4-8589-29f831607190" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/simple/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/simple/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/simple/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/simple/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="3bf522ba-7ec2-40c4-8589-29f831607190" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +56,7 @@
       <workItem from="1577707999948" duration="5413000" />
       <workItem from="1578041792057" duration="12543000" />
       <workItem from="1578306226141" duration="5639000" />
+      <workItem from="1580130060606" duration="275000" />
     </task>
     <servers />
   </component>
