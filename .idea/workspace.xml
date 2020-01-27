@@ -2,61 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bf522ba-7ec2-40c4-8589-29f831607190" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/my_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/my_account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_change.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_change.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_change_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_change_done.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_complete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_confirm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_reset.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_reset_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_reset_done.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_reset_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_reset_email.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/pass_reset_subject.txt" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/pass_reset_subject.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/migrations/0002_topic_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/migrations/0002_topic_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/templates/board.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/board.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/templates/edit_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/edit_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/templates/new_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/new_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/templates/new_topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/new_topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/templates/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/templates/topic_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/templates/topic_posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/board/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/board/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/simple/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/simple/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/simple/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/simple/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/simple/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/simple/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/simple/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/simple/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple/simple/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple/simple/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +121,7 @@
       <workItem from="1579607530564" duration="230000" />
       <workItem from="1579684808063" duration="58000" />
       <workItem from="1580127194205" duration="93000" />
-      <workItem from="1580127675264" duration="346000" />
+      <workItem from="1580127675264" duration="477000" />
     </task>
     <servers />
   </component>
